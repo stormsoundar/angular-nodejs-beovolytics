@@ -1,0 +1,19 @@
+GET http://localhost:3000/users
+
+###
+
+POST http://localhost:3000/save-user
+
+Content-Type: application/json
+
+{
+  "name": "Storm Soundar",
+  "address": "Banglore",
+  "email": "soundarit2013@gmail.com",
+  "username": "soundarit2013",
+  "password": "1234567",
+  "technologies": "React",
+  "degree": "UG",
+  "experience": 11,
+  "company": "Nil",
+}
